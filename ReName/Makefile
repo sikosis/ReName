@@ -4,10 +4,11 @@ XRES ?= xres
 MIMESET ?= mimeset
 
 TARGET := ReName
-VERSION := 0.12
+VERSION := 0.13
 BUILD_DIR := build
 SOURCE_DIR := source
 TEST_DIR := tests
+TRACKER_ADDONS_DIR = $(shell finddir B_USER_NONPACKAGED_ADDONS_DIRECTORY)/Tracker
 
 SOURCES := \
 	$(SOURCE_DIR)/Application.cpp \
@@ -50,8 +51,8 @@ test: $(TEST_TARGET)
 	$(TEST_TARGET)
 
 install: $(TARGET)
-	mkdir -p "$(shell finddir B_USER_ADDONS_DIRECTORY)/Tracker"
-	copyattr --data -- $(TARGET) "$(shell finddir B_USER_ADDONS_DIRECTORY)/Tracker/$(TARGET)"
+	mkdir -p "$(TRACKER_ADDONS_DIR)"
+	copyattr --data -- $(TARGET) "$(TRACKER_ADDONS_DIR)/$(TARGET)"
 
 clean:
 	rm -rf $(BUILD_DIR) $(TARGET)

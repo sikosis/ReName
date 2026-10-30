@@ -1,6 +1,6 @@
 # ReName
 
-ReName v0.12 is a Haiku Tracker add-on and standalone application for safely
+ReName v0.13 is a Haiku Tracker add-on and standalone application for safely
 renaming several files at once.
 
 It supports:
