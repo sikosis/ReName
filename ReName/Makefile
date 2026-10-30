@@ -4,7 +4,7 @@ XRES ?= xres
 MIMESET ?= mimeset
 
 TARGET := ReName
-VERSION := 0.11
+VERSION := 0.12
 BUILD_DIR := build
 SOURCE_DIR := source
 TEST_DIR := tests

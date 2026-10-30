@@ -1,4 +1,4 @@
-#include "Application.h"
+#include "RenameApplication.h"
 #include "MainWindow.h"
 
 #include <Application.h>

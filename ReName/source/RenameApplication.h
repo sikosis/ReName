@@ -3,6 +3,7 @@
 
 #include <Application.h>
 
+class BMessage;
 class MainWindow;
 
 class RenameApplication : public BApplication {
