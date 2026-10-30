@@ -1,0 +1,20 @@
+name rename
+version @VERSION@-@REVISION@
+architecture @ARCHITECTURE@
+summary "Safely batch-rename files from Haiku Tracker"
+description "ReName is a Tracker add-on and standalone application for previewing and safely applying batch file renames. It supports numbered basenames, original-name placeholders, extension changes, case conversion, and case-sensitive search and replace."
+vendor "ReName contributors"
+packager "ReName contributors"
+copyrights {
+	"FlipSide Software and ReName contributors"
+}
+licenses {
+	"CC0-1.0"
+}
+provides {
+	rename = @VERSION@
+	app:ReName = @VERSION@
+}
+requires {
+	haiku
+}

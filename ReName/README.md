@@ -1,6 +1,6 @@
 # ReName
 
-ReName v0.13 is a Haiku Tracker add-on and standalone application for safely
+ReName v0.14 is a Haiku Tracker add-on and standalone application for safely
 renaming several files at once.
 
 It supports:
@@ -31,6 +31,19 @@ make install
 
 Select files in Tracker, then choose **ReName** from the **Add-ons** menu. The
 application can also be launched directly and files dropped into its window.
+
+## Package
+
+Build a native Haiku package:
+
+```sh
+make package
+```
+
+This runs the tests first. The package is written to
+`build/rename-0.14-1-<architecture>.hpkg`. It installs the standalone application
+and exposes the same executable as a Tracker add-on. Open the HPKG in HaikuDepot
+to install it.
 
 ## Clean
 

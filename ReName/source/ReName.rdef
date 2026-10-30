@@ -5,10 +5,10 @@ resource app_flags B_SINGLE_LAUNCH;
 resource app_version {
 	major = 0,
 	middle = 1,
-	minor = 3,
+	minor = 4,
 	variety = 0,
 	internal = 1,
-	short_info = "ReName v0.13",
+	short_info = "ReName v0.14",
 	long_info = "Safely rename multiple files at once."
 };
 
