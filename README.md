@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="rename-screenshot.png" alt="ReName" width="256">
+  <img src="rename-screenshot.png" alt="ReName">
 </p>
 
 <h1 align="center">ReName</h1>
