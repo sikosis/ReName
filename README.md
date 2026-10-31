@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="rename-screenshot.png" alt="ReName" width="256">
+</p>
+
 <h1 align="center">ReName</h1>
 
 <p align="center">
